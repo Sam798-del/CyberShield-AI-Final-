@@ -147,7 +147,7 @@ GUIDES_DATA = [
 ]
 
 # ---------------------------------------------------------------------------
-# Health & Guidance Routes (Shreya Integration & Backend Test Suite)
+# Health & Guidance Routes (neeraja692 Integration & Backend Test Suite)
 # ---------------------------------------------------------------------------
 
 
@@ -157,10 +157,10 @@ def api_health():
     return jsonify({
         "status": "online",
         "app": "CyberShield-AI",
-        "developer": "Shreya",
+        "developer": "neeraja692",
         "active_modules": [
             "Authentication & Identity (Kaveri)",
-            "Guidance & Settings (Shreya)",
+            "Guidance & Settings (neeraja692)",
             "Phishing & Cyberbullying Engines",
             "Security Analyzer Microservice",
         ],

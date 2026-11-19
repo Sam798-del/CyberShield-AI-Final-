@@ -1,6 +1,6 @@
 """
 CyberShield AI — Cyberbullying & Textual Toxicity NLP Classifier
-Owner: Shreya
+Owner: neeraja692
 Assigned Scope: Checks messages and posts for harassment, hate speech, threats,
 social exclusion, body shaming, digital intimidation, and defamation in live text.
 

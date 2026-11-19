@@ -63,7 +63,7 @@ class CyberShieldComprehensiveTests(unittest.TestCase):
         res = self.client.get("/api/health")
         self.assertEqual(res.status_code, 200)
         self.assertEqual(res.get_json()["status"], "online")
-        self.assertEqual(res.get_json()["developer"], "Shreya")
+        self.assertEqual(res.get_json()["developer"], "neeraja692")
 
     def test_03_weak_password_rejected(self):
         problems = password_problems("short", "Alice", "alice@test.com")

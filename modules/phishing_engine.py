@@ -1,6 +1,6 @@
 """
 CyberShield AI — Phishing & Domain Spoofing Detection Engine
-Owner: Shreya
+Owner: neeraja692
 Assigned Scope: URLs, email content, and raw email headers (spoofing, deceptive domains, malware links)
 """
 

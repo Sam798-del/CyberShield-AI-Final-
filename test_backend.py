@@ -23,7 +23,7 @@ class CyberShieldBackendTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(data["status"], "online")
         self.assertEqual(data["app"], "CyberShield-AI")
-        self.assertEqual(data["developer"], "Shreya")
+        self.assertEqual(data["developer"], "neeraja692")
 
     def test_02_get_guides(self):
         response = self.app.get('/api/guide')
@@ -68,14 +68,14 @@ class CyberShieldBackendTestCase(unittest.TestCase):
                 "deep_heuristics": True
             },
             "profile": {
-                "name": "Shreya Lead Admin"
+                "name": "neeraja692 Lead Admin"
             }
         }
         res2 = self.app.post('/api/settings', data=json.dumps(update_payload), content_type='application/json')
         data2 = json.loads(res2.data)
         self.assertEqual(res2.status_code, 200)
         self.assertEqual(data2["settings"]["security"]["threat_sensitivity"], "paranoid")
-        self.assertEqual(data2["settings"]["profile"]["name"], "Shreya Lead Admin")
+        self.assertEqual(data2["settings"]["profile"]["name"], "neeraja692 Lead Admin")
 
     def test_07_reset_settings(self):
         res = self.app.post('/api/settings/reset')

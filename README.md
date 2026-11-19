@@ -79,7 +79,7 @@ GitHub stores the code but doesn't run it, so other people can't use `http://127
 - **Digital Identity:** document verification, privacy switches that control what a QR scan reveals, a time-limited QR code, and a trust score (0-100) calculated from real account data with a visible breakdown.
 - **Profile / Settings:** account details, change password, sensitivity thresholds (presets + per-module), AI model choice, privacy controls, active sessions, delete account.
 
-## Protecting your own endpoints (Shreya, Neeraja)
+## Protecting your own endpoints (neeraja692)
 
 ```python
 from flask import Blueprint, g

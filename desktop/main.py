@@ -24,7 +24,7 @@ def start_backend_server():
 
 def main():
     print("=" * 60)
-    print("      CyberShield AI Desktop Application (Shreya Module)")
+    print("      CyberShield AI Desktop Application (neeraja692 Module)")
     print("=" * 60)
     
     # Launch backend server thread
@@ -36,7 +36,7 @@ def main():
     
     print("\nSelect Desktop Module to Launch:")
     print("1. 🛡️  CyberShield Guidance Center")
-    print("2. ⚙️  CyberShield Settings & System Configuration (Shreya)")
+    print("2. ⚙️  CyberShield Settings & System Configuration (neeraja692)")
     print("3. 🏠  Launch Full Web Platform (http://127.0.0.1:5000)")
     
     # If headless or script run, default open guide
